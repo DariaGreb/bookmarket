@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжный мир</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/logo.png" class="header__logo-pic">
+                    </a>
+                </div>
+    
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#articles" class="header__link js-scroll">Помощь</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#locations" class="header__link js-scroll">Хиты</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#videos" class="header__link js-scroll">Контакты</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#sign-in" class="header__link js-scroll">8(936)173-73-38</a>
+                        </li>
+					</ul>
+					<div class="header__nav-close">
+						<span class="header__nav-close-line"></span>
+						<span class="header__nav-close-line"></span>
+					</div>
+				</nav>
+				<div class="header__burger burger">
+					<span class="burger__line burger__line_first"></span>
+					<span class="burger__line burger__line_second"></span>
+					<span class="burger__line burger__line_third"></span>
+				</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="intro" id="sign-in">
+            <div class="wrapper">
+                <h1 class="intro__title">
+                    Любить чтение — это обменивать часы скуки, неизбежные в жизни, на часы большого наслаждения.
+                </h1>
+                <h2 class="intro__subtitle">
+                    Шарль Луи де Монтескьё
+                </h2>
+            </div>
+        </section>
+
+        <div class="tours" id="articles">
+            <div class="wrapper-full">
+
+                <div class="tours__tour tour">
+                    <div class="tour__pic">
+                        <img src="./img/ivan.jpg" alt="Мы поможем вам с выбором той самой книги" class="tour__thumb">
+                    </div>
+                    <div class="tour__info">
+                        <h3 class="tour__title">
+                            Мы поможем вам с выбором той самой книги
+                        </h3>
+                        <p class="tour__desc">
+                            Наш сотрудник Иван Петров поможет вам с выбором подходящей для вас книги совершенно бесплатно и в любой точке мира 
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <section class="top" id="locations">
+            <div class="wrapper-full">
+                <h2 class="top__title section-title">
+                    Самые популярные категории книг в этом месяце
+                </h2>
+
+                <div class="top__cards">
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/f1.jpg" alt="ФАНТАСТИКА" class="top__card-thumb">
+                        </div>
+                        <p class="top__card-desc">
+                            Фантастика
+                        </p>
+                        <a href="#!" class="top__card-more">УЗНАТЬ БОЛЬШЕ</a>
+                    </div>
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/f2.jpg" alt="САТИРА.ЮМОР" class="top__card-thumb">
+                        </div>
+                        <p class="top__card-desc">
+                            Сатира.Юмор
+                        </p>
+                        <a href="#!" class="top__card-more">УЗНАТЬ БОЛЬШЕ</a>
+                    </div>
+
+                    <div class="top__card">
+                        <div class="top__card-pic">
+                            <img src="./img/f3.jpg" alt="ПРОЗА" class="top__card-thumb">
+                        </div>
+                        <p class="top__card-desc">
+                            Классическая и современная проза
+                        </p>
+                        <a href="#!" class="top__card-more">УЗНАТЬ БОЛЬШЕ</a>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </section>
+    
+        <div class="videos" id="videos">
+            <div class="videos__wrapper">
+                <div class="video__item"></div>
+                    <div class="ivan__pic">
+                        <img src="./img/map.jpg" alt="карта" class="tour__thumb">
+                    </div>
+                    <div class="ivan__info">
+                        <p class="ivan__desc">
+                            Контактный телефон : 8(936)173-73-38</br>
+                            Мы находимся по адресу г.Ростов-на-Дону, ул.Ленина,13</br>
+                            Часы работы : 8:00 - 22:00 
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img src="./img/logo.png" alt="Discover Amazing places in Japan" class="footer__logo-pic">
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">
+                                Выполнила Гребенкина Дарья МКИС11
+
+                            </h3>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main-es5.min.js"></script>
+</body>
+</html>
